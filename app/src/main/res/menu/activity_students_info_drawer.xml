@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/course_contents"
+            android:icon="@mipmap/ic_content_paste_black_24dp"
+            android:title="Course Contents" />
+        <item
+            android:id="@+id/results"
+            android:icon="@mipmap/ic_assignment_black_24dp"
+            android:title="Results" />
+        <item
+            android:id="@+id/profile"
+            android:icon="@mipmap/ic_person_black_24dp"
+            android:title="Profile" />
+        <item
+            android:id="@+id/timetable"
+            android:icon="@mipmap/timetable"
+            android:title="Time Table" />
+        <item
+            android:id="@+id/library"
+            android:icon="@mipmap/ic_library_books_black_24dp"
+            android:title="Library" />
+        <item
+            android:id="@+id/staff_directory"
+            android:icon="@mipmap/ic_store_mall_directory_black_24dp"
+            android:title="Staff Directory" />
+    </group>
+</menu>
